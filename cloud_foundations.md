@@ -1,2 +1,0 @@
-# Cloud Foundations Key Takeaways
-
