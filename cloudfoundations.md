@@ -1,7 +1,62 @@
-#Cloud Foundations Key Takeaways:
+#Cloud Foundations:
 
-## Introduction to Computing:
-	Applications, computers, and networks run the digital world.
-	Applications: Mobile app, web application, and game application; 
-	Computers: Mobile phone, tablet, eReader, laptop, desktop, web server, 
-	and database server; 
+## Date: 05/07/2024
+
+---
+
+## Introduction to Computing
+
+### Subtopic A
+
+- Point 1
+- Point 2
+
+### Subtopic B
+
+- Point 1
+- Point 2
+
+---
+
+## Topic 2
+
+### Subtopic A
+
+- Point 1
+- Point 2
+
+### Subtopic B
+
+- Point 1
+- Point 2
+
+---
+
+## Action Items
+
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+---
+
+## Key Takeaways
+
+- Key takeaway 1
+- Key takeaway 2
+
+---
+
+## Questions
+
+- Question 1
+- Question 2
+
+---
+
+## Next Steps
+
+- Next step 1
+- Next step 2
+
+
