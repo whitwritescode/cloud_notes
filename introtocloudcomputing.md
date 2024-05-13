@@ -26,12 +26,12 @@
 
 ---
 
-## Topic 2
+## Key Takeaways:
 
-### Subtopic A
+### What is an application?
 
-- Point 1
-- Point 2
+- An **application** is a computer program. It is a set of instructions that a computer runs to perform a specific task. A **computer program** is written as code in a programming language (Java, Python, and C++). Computer programs are generally called **software**. 
+- Applications run on different types of devices and are accessed in different ways. Web apps are accessed through a web browser and runs on a web server or app server. Mobile apps run in and are accessed through a mobile device. Desktop apps run in and are accessed through a desktop computer. IoT apps runs in and are accessed through appliances or specialized devices that connect to the internet. 
 
 ### Subtopic B
 
