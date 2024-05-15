@@ -9,3 +9,4 @@ This holds all of my class notes for AWS Re/start
 -[Linux](./linux.md)
 -[Python](./python.md)
 -[AWS_Services](./awsservices.md)
+-[System Operations](./sysoperations.md)
