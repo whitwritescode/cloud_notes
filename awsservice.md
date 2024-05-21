@@ -10,4 +10,6 @@
 
 - **AWS CloudFormation**: Create, update, and delete a set of AWS resources as a single unit using a JSON or YAML template.
 
-- **AWS OpsWorks**: automates how servers are confirgured, deployed and managed using Chef or Puppet.  
+- **AWS OpsWorks**: automates how servers are confirgured, deployed and managed using Chef or Puppet.
+
+- **AWS CodeWhisperer**: AI-powered code generator for IDEs and code editors. Generates code suggestions with an option to accept of reject them. Security scanner identifies hard-to find vulnerabilites. Refers various standards and best practices to follow. All of this results in more secure code. Support open-source and all experience-level developers.  
