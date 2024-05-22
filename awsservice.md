@@ -2,12 +2,12 @@
 
 ### Core Services:
 
-- [Amazon_VPC](./VPC.md)
-- [Amazon_EC2](./EC2.md)
-- [Amazon_S3](./S3.md)
-- [Amazon_RDS](./RDS.md)
-- [AWS_IAM](./AWS_IAM.md)
-- [AWS_Lambda](./AWS_Lambda.md)
+- [Amazon VPC](./VPC.md)
+- [Amazon EC2](./EC2.md)
+- [Amazon S3](./S3.md)
+- [Amazon RDS](./RDS.md)
+- [AWS IAM](./AWS_IAM.md)
+- [AWS Lambda](./AWS_Lambda.md)
 - [Amazon CloudWatch](./CloudWatch.md)
 
 ---
