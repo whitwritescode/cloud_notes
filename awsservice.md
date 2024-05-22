@@ -43,7 +43,10 @@
 
 - [Amazon EC2](./EC2.md)
 
-- **AWS Elastic Beanstalk**:
+- **AWS Elastic Beanstalk**: A fully-managed platform as a service (PaaS) that facilitates the quick deployment, scaling, and management of applications. When an application is uploaded, **Elastic Beanstalk** automatically handles the deployment details of capacity provisioning, load balancing, auto scaling, and application health monitoring. Benefits: increases productivity, built-in scalability, fully-managed.
+    - Supports web applications written for common platforms, including Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker.
+    - gives control over key runtime configuration options and resources.
+    - No charge to use; pay for resources that stores and runs applications. 
 
 - **AWS Fargate**:
 
