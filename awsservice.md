@@ -11,6 +11,17 @@
 - [Amazon CloudWatch](./CloudWatch.md)
 
 ---
+### Analytics:
+- **Amazon Athena**: Interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Since Athena is serverless, pay only for the queries that are ran. Integrates with **AWS Glue** Data Catalog to create a unified metadata repository across services, discover schemas through crawling the data, and update repo with new and modified tables. 
+
+- **Amazon EMR**: Serverless;  
+
+- **Amazon RedShift**:
+
+- **AWS Glue**: 
+
+
+---
 
 ### Admin and Dev Tools (Automation):
 
@@ -27,4 +38,10 @@
 - [AWS_Cloud9](./AWS_CLD_9.md)
 
 ---
+
+### Management and Goverance
+
+- **AWS CloudTrail**: Records AWS API calls for accounts and delivers log files. History of API calls recorded from the Management Console, SDKs, REST APIs, command line tools and higher-level AWS services such as CloudFormation. This history enables security analysis, tracking changes of resources and compliance auditing. CloudTrail logs are encrypted and stored in a AWS S3 bucket. Best practice: use with Amazon CloudWatch. 
+
+-
 
