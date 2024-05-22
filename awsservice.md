@@ -39,9 +39,51 @@
 
 ---
 
+### Compute Services:
+
+- [Amazon EC2](./EC2.md)
+
+- **AWS Elastic Beanstalk**:
+
+- **AWS Fargate**:
+
+- **AWS Lambda**:
+
+- **AWS Lightsail**: 
+
+---
+
 ### Management and Goverance
 
 - **AWS CloudTrail**: Records AWS API calls for accounts and delivers log files. History of API calls recorded from the Management Console, SDKs, REST APIs, command line tools and higher-level AWS services such as CloudFormation. This history enables security analysis, tracking changes of resources and compliance auditing. CloudTrail logs are encrypted and stored in a AWS S3 bucket. Best practice: use with Amazon CloudWatch. 
 
--
+---
+
+### Security, Identity, and Compliance
+
+- [AWS Identity and Access Management (IAM)](./AWS_IAM.md)
+
+- **Amazon Inspector**: 
+
+- **Amazon Guard Duty**: 
+
+- **AWS Artifact**: 
+
+- **AWS Key Management Service (KMS)**:
+
+- **AWS Shield**: 
+
+- **AWS Web Application Firewall (WAF)**:
+
+- **Amazon Macie**: 
+
+
+
+
+
+
+
+
+
+
 
