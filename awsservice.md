@@ -62,6 +62,26 @@
 
 ---
 
+### Networking and Content Delivery:
+
+- **Elastic Load Balancing**: automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses. Offers four types of load balancers that all feature the high availability, automatic scaling, and robust security necessary to make applications fault tolerant.
+    | Load Balancer | Functions |   Layer |
+    | ------------- | --------- | --------------- |
+    | Application | Provides advanced load balancing for traffic (HTTP, HTTPS, and  Google Remote Procedure Call, gRPC). Is used for flexible application management.| Operates at the application level (layer 7.)| 
+    |     |     |
+    |    |      |
+    |      |      |
+    
+
+
+
+
+
+
+
+
+---
+
 ### Security, Identity, and Compliance
 
 - [AWS Identity and Access Management (IAM)](./AWS_IAM.md)
