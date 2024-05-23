@@ -74,15 +74,9 @@
     | Load Balancer | Functions |   Layer |
     | ------------- | --------- | --------------- |
     | Application | Provides advanced load balancing for traffic (HTTP, HTTPS, and  Google Remote Procedure Call, gRPC). Is used for flexible application management.| Operates at the application level (layer 7.)| 
-    |     |     |
-    |    |      |
-    |      |      |
-    
-
-
-
-
-
+    | Gateway | Provides load balancing for virtual appliances and network traffic destinations (all types of IP traffic). Is  used for virtual appliance management. | Operates as a gateway at the network level (layer 3) and as a load balancer at the transport level (layer 4) |
+    | Network | Provides load balancing for TCP traffic (TCP, UDP, and TLS). Is used for extreme performance and as a static IP address for your application. | Operates at the transport level (layer 4). |
+    | Classic | Provides support and load balancing for HTTP, HTTPS, SSL/TLS, and TCP traffic on the EC2-Classic platform(previous generation. Is used for existing applications that were built on the EC2-Classic platform. | Operates at both the application level (layer 7) and the transport level (layer 4). |
 
 
 
