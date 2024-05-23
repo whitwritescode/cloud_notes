@@ -60,6 +60,12 @@
 
 - **AWS CloudTrail**: Records AWS API calls for accounts and delivers log files. History of API calls recorded from the Management Console, SDKs, REST APIs, command line tools and higher-level AWS services such as CloudFormation. This history enables security analysis, tracking changes of resources and compliance auditing. CloudTrail logs are encrypted and stored in a AWS S3 bucket. Best practice: use with Amazon CloudWatch. 
 
+- **AWS CloudWatch**: Monitor and manage various metrics. configures alarms actions based on data from those metrics. alarms automatic perform actions if the value of the metrics goes above or below a predefined threshold.  Access to all metrics from a central location through the dashboard. Visibility into applications, infrastructures and services, reduce MTTR and improve TCO insights to optimize apps and operational procedures. Manages Performance optimization. 
+
+- **AWS Trusted Advisor**: Evaluates your AWS environment in real-time using best practice checks across the categories of cost optimization, performance, resilience, security, fault tolerance, and service limits, and recommend actions to remediate any deviations from best practices in Trusted Advisor Priority. 
+
+- **AWS Config**: Configuration Manager for AWS account. Keeps a record of the configuration settings for AWS resources, such as virtual machines, databases, and security groups. Detects and notifies of any changes to these configurations, helping to stay on top of updates and potential issues. Ensures resources comply with industry standards and best practices, reducing security risks and errors. Offers a centralized dashboard to view and manage AWS resources, making it easier to understand resource usage and optimize the infrastructure.
+
 ---
 
 ### Networking and Content Delivery:
@@ -84,23 +90,24 @@
 
 ### Security, Identity, and Compliance
 
-- [AWS Identity and Access Management (IAM)](./AWS_IAM.md)
+- [AWS Identity and Access Management (IAM)](./AWS_IAM.md): Secures control access to AWS resources, uses ACL to control access to resources. Configure Role-based permissions. Controls access to AWS resources by using authentication and authorization. Authentication: Use IAM to control who can sign in and Authorization: Use IAM to control who has access to resources. 
 
-- **Amazon Inspector**: 
+- **Amazon Inspector**: Checks apps for security vulnerabilities. Runs automated security assessments. Makes recommendations. 
 
-- **Amazon Guard Duty**: 
+- **Amazon Guard Duty**: Provides intelligent threat detection for AWS infrastructures and resources. Analyzes data from multiple AWS sources (VPC Flow and DNS logs). 
 
-- **AWS Artifact**: 
+- **AWS Artifact**: On-demand access to AWS security and compliance report. Two Sections: Agreements and Reports. Access to Compliance reports. AWS Compliance Regulations and Reports for Data Storage. Emphasis on Shared Responsibilities. Customer Compliance Center is a resource for customers
 
-- **AWS Key Management Service (KMS)**:
+- **AWS Key Management Service (KMS)**: Manage and create encryption operations through cryptographic keys. Can store keys in the default key store or connect to **AWS CloudHSM** to store keys in its key store. This technique helps satisfy compliance obligations to use HSMs while providing the AWS service integrations of AWS KMS. Integrates with AWS services to simplify the process of using your keys to encrypt data across your AWS workloads. Is fully managed. 
 
-- **AWS Shield**: 
+- **AWS Shield**: protects applications against DDoS attacks. Two levels of protections: Standard, a free service and Advanced, paid services that connected to other AWS security service.
 
-- **AWS Web Application Firewall (WAF)**:
+- **AWS Web Application Firewall (WAF)**: works with **AWS CloudFront** and *Application Load Balancer*. A web application firewall. black or allows access to web apps.  **AWS WAF** is a web application firewall service that helps protect your web apps from common exploits that could affect app availability, compromise security, or consume excessive resources. **AWS Shield** provides expanded DDoS attack protection for your AWS resources. The difference between them is that **AWS WAF** provides protection on the application layer and AWS Shield protects the infrastructure layers of the OSI model.
 
 - **Amazon Macie**: 
 
-
+- **AWS Organizations**: manages multiple AWS accounts in a central locations (containers). Group accounts in Organization Units (OU) based on duties and responsibilities. Service Control policies (SCPs) can be applied to OUs and individual member accounts. Every organization in AWS Organizations has a management account that pays the charges of all the member accounts. At no additional cost.
+    - *Consolidate billings* provides one bill for multiple accounts, tracks the charges across multiple accounts and download the combined cost and usage data.  Itemized charges can be reviewed as well. Companies can combine the usage across all accounts in the organization to share the volume pricing discounts, Reserved Instance discounts, and Savings Plans. This can result in a lower charge for a project, department, or company than with individual standalone accounts. 
 
 
 
